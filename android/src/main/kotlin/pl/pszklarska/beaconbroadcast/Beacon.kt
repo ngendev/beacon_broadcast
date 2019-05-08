@@ -9,8 +9,8 @@ import org.altbeacon.beacon.BeaconTransmitter
 import org.altbeacon.beacon.BeaconTransmitter.checkTransmissionSupported
 import java.util.*
 
-const val ALT_BEACON_LAYOUT = "m:2-3=beac,i:4-19,i:20-21,i:22-23,p:24-24,d:25-25"
-const val RADIUS_NETWORK_MANUFACTURER = 0x0118
+const val ALT_BEACON_LAYOUT = "m:2-3=0215,i:4-19,i:20-21,i:22-23,p:24-24"
+const val RADIUS_NETWORK_MANUFACTURER = 0x004C
 
 class Beacon {
 
